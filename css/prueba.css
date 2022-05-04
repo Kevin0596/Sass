@@ -1,0 +1,70 @@
+/*@import "../variables/variables";
+
+body {
+    @if $vista==desktop {
+        @media only screen and(max-widht: 1024px) {
+            h1 {
+                font-size: $h1Desktop;
+            }
+            h3{
+                font-size: 35px;
+            }
+            p{
+                font-size:$parrafoDesktop
+            }
+        }
+
+    }
+}*/
+.header-footer, header, footer {
+  background-color: #c3379d;
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+.header-footer, header, footer {
+  background-color: #c3379d;
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+header nav {
+  display: flex;
+  justify-content: space-between; }
+  header nav a {
+    text-decoration: none;
+    font-family: verdana; }
+
+.header-footer, header, footer {
+  background-color: #c3379d;
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+section {
+  width: 100%; }
+  section article {
+    width: 100%; }
+    section article p {
+      font-family: verdana;
+      line-height: 1.5;
+      font-style: italic;
+      font-weight: bold;
+      text-align: center; }
+
+.header-footer, header, footer {
+  background-color: #c3379d;
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
+
+footer nav {
+  display: flex;
+  justify-content: space-between; }
+  footer nav a {
+    text-decoration: none;
+    font-family: verdana; }
+
+* {
+  margin: 0;
+  padding: 0; }
